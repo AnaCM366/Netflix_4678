@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    background-color: black;
+    color: white;
+    position: relative; /* Necessário para o posicionamento do h2 */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    position: center; /* Necessário para o h2 se posicionar em relação a ele, se necessário */
+}
+
+h2 {
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Adiciona um pequeno espaço de margem */
+}
